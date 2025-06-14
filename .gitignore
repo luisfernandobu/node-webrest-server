@@ -6,3 +6,6 @@ dist/
 .env.test
 
 keys/
+
+/postgres
+/src/generated/prisma
