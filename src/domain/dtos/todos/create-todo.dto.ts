@@ -8,7 +8,7 @@ export class CreateTodoDto {
         if (!props || Object.keys(props).length === 0) return ['Request cannot be empty'];
 
         const { text } = props;
-        if (!text) return ['Text property is required'];
+        if (!text) return ['text property is required'];
 
         return [undefined, new CreateTodoDto(text)];
     }
